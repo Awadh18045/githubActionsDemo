@@ -28,7 +28,7 @@ def test_create_new_user(start_exec):
     # # Pick id using json path
     # id = jsonpath.jsonpath(response_json,'id')
     # print(id[0])
-
+    print("Awadh")
 @pytest.mark.SVT
 def test_create_other_user(start_exec):
     json_input = file.read()
